@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-import  '../../asserts/style/comman.css';
-
 function Header2() {
   const [header, setHeader] = useState("header");
 
@@ -22,15 +20,15 @@ function Header2() {
   return (
     <div className="container-fluid">
     <header className= {header}>
-      <div className="logo-seting fnt-35">EXPERT</div>
-      <ul className="links fnt-header fnt-19 hover-effect ">
-        <li className="link-item underline">Home</li>
-        <li className="link-item underline">Projects</li>
-        <li className="link-item underline">Process</li>
-        <li className="link-item underline">Testimonials</li>
-        <li className="link-item underline">Process</li>
-        <li className="link-item underline">Services</li>
-        <li className="link-item text-dark left-side underline ">Pricing</li>
+      <div className="fnt-fmly logo-seting fnt-35">EXPERT</div>
+      <ul className="fnt-fmly links fnt-header fnt-19 hover-effect ">
+        <li className="fnt-fmly link-item underline">Home</li>
+        <li className="fnt-fmly link-item underline">Projects</li>
+        <li className="fnt-fmly link-item underline">Process</li>
+        <li className="fnt-fmly link-item underline">Testimonials</li>
+        <li className="fnt-fmly link-item underline">Process</li>
+        <li className="fnt-fmly link-item underline">Services</li>
+        <li className="fnt-fmly link-item text-dark left-side underline ">Pricing</li>
         <li className="link-item "><button type="button" class="btn btn-danger">Contact</button></li>
       </ul>
       
