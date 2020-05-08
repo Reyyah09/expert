@@ -20,7 +20,8 @@ function Header2() {
   }, []);
 
   return (
-    <header className={header}>
+    <div className="container-fluid">
+    <header className= {header}>
       <div className="logo-seting fnt-35">EXPERT</div>
       <ul className="links fnt-header fnt-19 hover-effect ">
         <li className="link-item underline">Home</li>
@@ -34,7 +35,7 @@ function Header2() {
       </ul>
       
     </header>
-    
+    </div>
   );
 }
 
