@@ -13,7 +13,24 @@ $font-family:'Muli';
 }
 .fnt-35{
     font-size: 35px;
+}  
+.fnt-40{
+  font-size: 40px;
 }
+// font-weight start here
+.fnt-wt{
+  font-weight: 900;
+}
+// margin start here
+.mb-25{
+  margin-bottom: 25px;
+  
+}
+.mt-pb {
+  margin-top: 30%;
+  position: absolute;
+}
+
 
 /* Common Button */
 .btn-common {
@@ -26,7 +43,11 @@ $font-family:'Muli';
     background-color: #dc3545;
     border: 1px solid #dc3545;
 }
-
+// colors
+.clr-blue{
+  color: #352961;
+}
+//  header start here
     .header {
         position: absolute;
         top: 0;
@@ -59,17 +80,6 @@ $font-family:'Muli';
         animation: myanimation 3s;
         z-index: 2;
       }
-      @keyframes myanimation {
-        0% {
-        
-        }
-        35% {
-         
-        }
-        100% {
-        
-        }
-      }
       
       .header.shadow {
         box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13);
@@ -84,11 +94,7 @@ $font-family:'Muli';
         font-size: 28px;
        
     }
-    
- 
-    
-      
-      .links {
+     .links {
         padding: 0;
         margin: 0 24px;
       }
@@ -138,3 +144,4 @@ $font-family:'Muli';
 .underline:hover::after {
     width: 90%;
 }
+// header end here
