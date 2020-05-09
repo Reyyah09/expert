@@ -3,9 +3,10 @@ import React from 'react';
 
 return(
 <>
-<div className="container mt-pb">
-<h2 className="clr-blue fnt-wt fnt-40 mb-25 ml-5">OUR PROJECTS</h2>
-<p className="ml-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+<div className="container-fluid">
+<div className="container">
+<h2 className="clr-blue fnt-wt fnt-40 mb-25">OUR PROJECTS</h2>
+<p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
  Rem <br/> possimus distinctio ex.
   Natus totam voluptatibus animi aspernatur <br/> ducimus quas
    obcaecati mollitia quibusdam temporibus
@@ -13,7 +14,7 @@ return(
 
 
 </div>
-
+</div>
 </>
 );
 
