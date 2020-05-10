@@ -1,9 +1,21 @@
+// Minus Margin Left
+.mr-left-77{
+  margin-left: -55px;
+}
+// Card
+.card{
+  padding:30px;
+  text-align: center;
+}
+// Icons
+.icon{
+  width: 45px;
+}
 // Container
 .container{
   padding: 0px;
   width: 1140px;
-  margin: 0px;
-  padding-left: 32px;
+  // padding-left: 32px;
 }
 
 // fontFamily
@@ -29,12 +41,16 @@ $font-family:'Muli';
 .fnt-wt{
   font-weight: 900;
 }
-// margin start here
-.mb-25{
-  margin-bottom: 25px;
-  
+
+// padding
+.pd-bot-10{
+  padding-bottom: 10px;
 }
-.mt-pb {
+.pd-bot-75{
+  padding-bottom: 75px;
+}
+.pd-top-85{
+  padding-top: 85px;
 }
 
 
@@ -50,8 +66,12 @@ $font-family:'Muli';
     border: 1px solid #dc3545;
 }
 // colors
-.clr-blue{
-  color: #352961;
+.clr-ocean{
+  color: #1FB58F;
+}
+// commonBackgroundColor
+.clr-bg-ice{
+  background-color: #99D3DF;
 }
 //  header start here
     .header {
@@ -123,7 +143,7 @@ $font-family:'Muli';
     
     height: 800px;
     width: 70%;
-    background: #352961;
+    background: #1FB58F;
     border-bottom-right-radius: 200px;
     margin-top: 0px;
 }
