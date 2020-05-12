@@ -1,6 +1,7 @@
 import React from 'react';
 import '../contact/contact.scss';
 import Contactimg from '../../asserts/images/contactUs.jpg'
+
 export default()=>{
     return(
         <>
