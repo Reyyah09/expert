@@ -2,8 +2,8 @@ import React from 'react'
 
 export default () => {
     return (
-        <div className="container-fluid clr-light mt-5 pd-95">
-        <footer >
+        
+        <footer className="container-fluid clr-light mt-5 pd-95" >
           
         <div className="mt-3">
         <div className="row">
@@ -67,7 +67,7 @@ Copyright © 2020 All rights reserved | This template is made with by Colorlib
     
             </footer>
     
-            </div>
+            
 
         
  
