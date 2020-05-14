@@ -1,3 +1,8 @@
+// All width size
+.wd-100{
+  width: 100%;
+}
+
 // Minus Margin Left
 .mr-left-77{
   margin-left: -55px;
@@ -52,6 +57,9 @@ $font-family:'Muli';
 .pd-top-85{
   padding-top: 85px;
 }
+.pd-95{
+  padding: 95px;
+}
 
 
 /* Common Button */
@@ -69,6 +77,10 @@ $font-family:'Muli';
 .clr-ocean{
   color: #1FB58F;
 }
+.clr-light{
+  background-color:#f1f3f8 ;
+}
+
 // commonBackgroundColor
 .clr-bg-ice{
   background-color: #99D3DF;
