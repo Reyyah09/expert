@@ -5,7 +5,7 @@ export default () => {
         
         <footer className="container-fluid clr-light mt-5 pd-95" >
           
-        <div className="mt-3">
+        <div className="container mt-3">
         <div className="row">
     
           
