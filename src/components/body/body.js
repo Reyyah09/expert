@@ -13,7 +13,7 @@ export default()=>{
 <div class="d-flex align-items-center intro-section slider-margin" id="home-section">
    <div>
         <div className="container-fluid">
-            <div className="container">
+            <div className="container container-width">
             <div className="d-flex justify-content-between">
                   <div className="d-flex align-items-center slide-para">
                       <div className="carousel-outer">

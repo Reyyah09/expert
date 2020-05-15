@@ -14,7 +14,7 @@ export default () => {
    obcaecati mollitia quibusdam temporibus
  culpa <br />dolore molestias blanditiis consequuntur sunt nisi.</p>
                 </div>
-                <div className="container">
+                <div className="container container-width">
                     <div className="d-flex justify-content-between">
                         <div className="d-flex flex-column card mr-2">
                             <div>
